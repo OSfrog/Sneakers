@@ -8,6 +8,8 @@
 
 a {
     text-decoration: none;
+    color: #000;
+    transition: all 200ms ease-in-out;
 }
 
 a:hover {
@@ -24,81 +26,41 @@ h1 {
     display: flex;
 }
 
-/* Header */
-
-.box-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to right, rgb(255, 0, 0), hsla(0, 0%, 100%, 0.39));
-    height: 12vh;
-}
-
-.box-header h1 {
-    padding: 1rem;
-}
-
-
-/* Navigation */
-
-.box-navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 5vh;
-    background: #333;
-}
-
-.nav-items a {
-    color: #FFF;
-    transition: all 200ms ease-in-out;
-    
-}
-
-.nav-items a:hover {
-    color: #999;
-}
-
-.box-navbar ul {
-    display: flex;
-    list-style: none;
-}
-
-.box-navbar a {
-    padding: 0.5rem 3rem;
-    font-size: 2rem;
-}
-
 /* Grid */
 
 .main-container {
     display: grid;
-    grid-template: repeat(3, 16rem) / repeat(3, 16rem);
+    /* grid-template: repeat(6, 16rem) / repeat(3, 16rem); */
+    grid-template: 
+                [top-row-images] "a b c" 16rem
+                [top-row-info] "d e f" 3rem
+                [mid-row-images] "g h i" 16rem
+                [mid-row-info]"j k l" 3rem
+                [bot-row-images] "m n o" 16rem
+                [bot-row-info] "p q r" 3rem / 16rem 16rem 16rem;
     width: 100%;
     padding: 3rem;
     gap: 2rem;
     justify-content: center;
 }
 
-/* .container  img {
-    border: 1px green solid;
-    max-height: 31.25rem;
-    max-width: 31.25rem;
-} */
+
 
 /* Main Grid Items */
 
 .main-grid-items-1 {
-    background: url('/images/nike1.jpg') no-repeat center center/cover;
+    background: url('https://stockx-360.imgix.net/Nike-Tom-Craft-NikeCraft-Mars-Yard-Shoe/Images/Nike-Tom-Craft-NikeCraft-Mars-Yard-Shoe/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1607046239&w=1000') no-repeat center center/cover;
+    background-size: contain;
 }
 
 .main-grid-items-2 {
-    background: url('/images/nike2.jpg') no-repeat center center/cover;
+    background: url('https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Dior/Images/Air-Jordan-1-Retro-High-Dior/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1607043976&w=1000') no-repeat center center/cover;
+    background-size: contain;
 }
 
 .main-grid-items-3 {
-    background: url('/images/nike3.jpg') no-repeat center center/cover;
+    background: url('https://stockx-360.imgix.net/Nike-SB-Dunk-Low-Ben-Jerrys-Chunky-Dunky-FF-Packaging/Images/Nike-SB-Dunk-Low-Ben-Jerrys-Chunky-Dunky-FF-Packaging/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1607045724&w=1000') no-repeat center center/cover;
+    background-size: contain;
 }
 
 .main-grid-items-4 {
@@ -106,26 +68,28 @@ h1 {
 }
 
 .main-grid-items-5 {
-    background: url('https://cdn-images.farfetch-contents.com/16/11/46/83/16114683_32008723_1000.jpg') no-repeat center center/cover;
+    background: url('https://stockx-360.imgix.net/Balenciaga-Track-Orange-Blue/Images/Balenciaga-Track-Orange-Blue/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1607657251&w=1000') no-repeat center center/cover;
+    background-size: contain;
 }
 
 .main-grid-items-6 {
-    background: url('https://cdn-images.farfetch-contents.com/15/22/38/38/15223838_28121046_1000.jpg') no-repeat center center/cover;
-    background-position-y: -6.5rem;
+    background: url('https://stockx-360.imgix.net/Balenciaga-Speed-Trainer-Black-White-2018/Images/Balenciaga-Speed-Trainer-Black-White-2018/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1603481985&w=1000') no-repeat center center/cover;
+    background-size: contain;
+    
 }
 
 .main-grid-items-7 {
-    background: url('https://www.stadiumgoods.com/media/catalog/product/a/a/aa3834_101_1_3.png') no-repeat center center/cover;
+    background: url('https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Off-White-Chicago/Images/Air-Jordan-1-Retro-High-Off-White-Chicago/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606322952&w=1000') no-repeat center center/cover;
     background-size: contain;
 }
 
 .main-grid-items-8 {
-    background: url('https://www.stadiumgoods.com/media/catalog/product/a/q/aq0818_148_1.png') no-repeat center center/cover;
+    background: url('https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Off-White-University-Blue/Images/Air-Jordan-1-Retro-High-Off-White-University-Blue/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606321054&w=1000') no-repeat center center/cover;
     background-size: contain;
 }
 
 .main-grid-items-9 {
-    background: url('https://www.stadiumgoods.com/media/catalog/product/a/q/aq0818_100_1.png') no-repeat center center/cover;
+    background: url('https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Off-White-White/Images/Air-Jordan-1-Retro-High-Off-White-White/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1607656930&w=1000') no-repeat center center/cover;
     background-size: contain;
 }
 
@@ -135,6 +99,10 @@ h1 {
 
 .product-image:hover {
     transform: scale(0.9);
+}
+
+.product-info {
+    text-align: center;
 }
 
 /* footer */

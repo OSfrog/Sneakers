@@ -64,7 +64,8 @@ h1 {
 }
 
 .main-grid-items-4 {
-    background: url('/images/balenciaga1.jpg') no-repeat center center/cover;
+    background: url('https://stockx-360.imgix.net/Balenciaga-Triple-S-Black-White-Red-2018-Reissue/Images/Balenciaga-Triple-S-Black-White-Red-2018-Reissue/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1607044743&w=1000') no-repeat center center/cover;
+    background-size: contain;
 }
 
 .main-grid-items-5 {

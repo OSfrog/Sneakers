@@ -1,0 +1,38 @@
+h2 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.bottom-nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-nav-container a {
+    margin: 1rem;
+    color: #999;
+    transition: all 200ms ease-in-out;
+}
+
+.bottom-nav-container a:hover {
+    color: black;
+}
+
+#current {
+    color: black;
+}
+
+.nav-current {
+    border-bottom: 2px white solid;
+   
+}
+a#nav-current:hover {
+    color: #999;
+}
+
+.bottom-nav-container .disabled:hover {
+    color: #999;
+    cursor: default;
+}
+

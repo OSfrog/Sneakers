@@ -25,6 +25,7 @@
 }
 
 .box-navbar a {
-    padding: 0.5rem 3rem;
+    /* padding: 0.5rem 3rem; */
     font-size: 2rem;
+    margin: 0.5rem 3rem;
 }

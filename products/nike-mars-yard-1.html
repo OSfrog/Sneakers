@@ -1,72 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/header.css"/>
-    <link rel="stylesheet" href="../css/navbar.css"/>
-    <link rel="stylesheet" href="../css/product-page.css">
-    <title>Sneakers</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/header.css" />
+  <link rel="stylesheet" href="../css/navbar.css" />
+  <link rel="stylesheet" href="../css/product-page.css">
+  <script src="https://kit.fontawesome.com/734a53a685.js" crossorigin="anonymous"></script>
+  <title>Sneakers</title>
 </head>
+
 <body>
-    <header>
-        <div class="box box-header">
-          <a href="../index.html"><h1>
-            Lorem, ipsum.
-          </h1></a>
-        </div>
-  
-        <nav>
-          <div class="box box-navbar">
-            <ul class="nav-items">
-              <li><a href="#">All</a></li>
-              <li><a href="#">Nike</a></li>
-              <li><a href="#">Balenciaga</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+  <header>
+    <div class="box box-header">
+      <a href="../index.html">
+        <h1>
+          Lorem, ipsum.
+        </h1>
+      </a>
+    </div>
 
-      <main>
-          <div class="product-container">
-            <div class="product"></div>
-            <div class="product-description"><h2>No description needed</h2><br>
-              <p>This is not a pair of sneakers, this is a museum piece and an art collectors item.
-                Straight from 2012 here's a pristine pair of NikeCraft Mars Yard x Tom Sachs 1.0 in US9 new and never worn.
-                The most curated and detailed project ever made by Nike, you won't see something like this again, potentially the last US9 still deadstock after all these years. Only 99 pairs made in total.</p><br>
-              <div id="quote">"<i>Special features include: outsoles borrowed from the NIKE special forces boot (SFB), VECTRAN fabric from the Mars Excursion Rover airbags, and detailing from Apollo Lunar Overshoes</i>." by Tom Sachs</div> 
-            </div>
-            <div class="product-info">
-              <h2>NIKECRAFT MARS YARD SHOE 1.0 TOM SACHS SPACE CAMP</h2>
-              <h3>SEK 100.000</h3>
-            </div>
-            <div class="dropdown-container">
-              <label for="size" class="size-label">Size &nbsp;</label>
-              <select name="#" id="size">
-                <option value="38">38</option>
-                <option value="39">39</option>
-                <option value="40">40</option>
-                <option value="41">41</option>
-                <option value="42">42</option>
-              </select>
-            </div>
-            <div class="button-section">
-              <a href=""><div class="cart-button">ADD TO CART</div></a>
-              <a href=""><div class="buy-button">BUY NOW</div></a> 
-            </div>
-          </div>
-      </main>
-
-      <footer>
-        <div class="footer-container">
-            <ul class="footer-items">
-            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About Us</a></li>
-            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact</a></li>
-            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">FAQ</a></li>
-            </ul>
+    <nav>
+      <div class="box box-navbar">
+        <ul class="nav-items">
+          <li><a href="#">All</a></li>
+          <li><a href="#">Nike</a></li>
+          <li><a href="#">Balenciaga</a></li>
+        </ul>
+        <div class="cart-container">
+            <a id="navbar-cart" href="#"><i class="fas fa-shopping-basket fa-xs"></i>(<span></span>)</a>          
         </div>
-    </footer>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="product-container">
+      <div class="product"></div>
+      <div class="product-description">
+        <h2>No description needed</h2><br>
+        <p>This is not a pair of sneakers, this is a museum piece and an art collectors item.
+          Straight from 2012 here's a pristine pair of NikeCraft Mars Yard x Tom Sachs 1.0 in US9 new and never worn.
+          The most curated and detailed project ever made by Nike, you won't see something like this again, potentially
+          the last US9 still deadstock after all these years. Only 99 pairs made in total.</p><br>
+        <div id="quote">"<i>Special features include: outsoles borrowed from the NIKE special forces boot (SFB), VECTRAN
+            fabric from the Mars Excursion Rover airbags, and detailing from Apollo Lunar Overshoes</i>." by Tom Sachs
+        </div>
+      </div>
+      <div class="product-info">
+        <h2 class="product-name">NIKECRAFT MARS YARD SHOE 1.0 TOM SACHS SPACE CAMP</h2>
+        <h3 class="product-price">SEK 100.000</h3>
+      </div>
+      <div class="dropdown-container">
+        <label for="size" class="size-label">Size &nbsp;</label>
+        <select name="#" id="size">
+          <option value="38">38</option>
+          <option value="39">39</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
+        </select>
+      </div>
+      <div class="button-section">
+        <a class="cart-button" href="#">
+          ADD TO CART
+        </a>
+        <a class="buy-button" href="#">
+          BUY NOW
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <ul class="footer-items">
+        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About Us</a></li>
+        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact</a></li>
+        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">FAQ</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="/scripts/cart.js"></script>
 </body>
+
 </html>

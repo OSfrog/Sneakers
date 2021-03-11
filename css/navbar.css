@@ -29,3 +29,23 @@
     font-size: 2rem;
     margin: 0.5rem 3rem;
 }
+
+.box-navbar .cart-container{
+    position: absolute;
+    align-items: center;
+    left: 90%;
+    height: inherit;
+    width: inherit;    
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-container a,
+.cart-container a i{
+    color: #fff;
+}
+
+.cart-container a:hover,
+.cart-container i:hover{
+    color: #999;
+}
